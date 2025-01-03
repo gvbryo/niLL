@@ -18,7 +18,7 @@ header {
     animation: slideDown 0.5s ease-out forwards;
     height: 15%;
     width: 100%;
-    background-color: dimgray;
+    background-color: rgb(255, 255, 255);
     color: white;
     padding: 25;
     display: flex;
@@ -189,10 +189,12 @@ body {
 }
 
 .imagens {
-    max-width: 100%;
-    height: auto;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-  
+    width: 450px;
+    height: 450px;
 }
 
 footer {
