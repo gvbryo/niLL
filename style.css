@@ -20,10 +20,6 @@ header {
     width: 100%;
     background-color: rgb(255, 255, 255);
     color: white;
-    padding: 25;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
 
@@ -200,4 +196,18 @@ body {
 footer {
     position: relative;
     bottom: 22px;
+    text-align: center;
+}
+
+.sobre {
+    opacity: 50%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#perfil {    
+    text-decoration: none;
+    color:black ;
+
 }
